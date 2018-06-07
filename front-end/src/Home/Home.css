@@ -1,0 +1,459 @@
+.bgimg {
+    background-image: url('../Assets/dj.jpg');
+    width: 100%;
+    height:400px;
+    background-size: cover;
+    background-position: center left;
+    z-index: 9;
+}
+.rowFont {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    padding-left: 10px;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 15px;
+}
+.rowFont-bold {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    padding-left: 10px;
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 15px;
+}
+.half {
+    height: 50%;
+}
+.flex-row-top {
+   display: flex; 
+   align-items: flex-start;
+   justify-content: center;
+}
+.fontRegularBig {
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    color:#676769;
+    font-size: 30px
+}
+.requestRow-modal::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+    .requestRow-modal::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
+.requestRow-modal {
+   max-height: 55vh; 
+   overflow: scroll;
+}
+.requestRow::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+    .requestRow::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
+.requestRow {
+   max-height: 35vh; 
+}
+.nameSong {
+    overflow: hidden;
+    align-content: center;
+    text-align: center;
+    width: 100%
+}
+
+.joinImg {
+    background-image: url('../Assets/otherIcons/No-Playlist-Graphic.jpg');
+    border-radius: 25px;
+    width: 100%;
+    height:325px;
+    background-size: cover;
+    background-position: center left;
+    z-index: 9;
+}
+.noSongImg {
+    background-image: url('../Assets/otherIcons/No-Song-Graphic.jpg');
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center left;
+    z-index: 9;
+}
+    .timerFont {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    font-size: 30px;
+}
+.startSpinning {
+    height: 50%;
+    padding-top:0;
+}
+.content {
+    z-index: 10;
+    width: 100%;
+    height:400px;
+    background-color: rgba(246,246,246,0.4);
+}
+.mainContainer {
+    margin:0;
+    padding:0;
+}
+.infoDetailText {
+    margin:auto;
+    max-width : 600px; 
+    margin-top: 10px;
+}
+
+.buttonOne {
+    float: right;
+}
+.buttonTwo {
+    float: left
+}
+.innerContent {
+    max-width: 900px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 8vh;
+    background-color: #FFFFFF;
+    min-height: 200px;
+    width: 70%;
+}
+.bottom {
+    overflow: hidden;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom:5vh;
+}
+
+.solidOne {
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    margin-top:75px;
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    color:white;
+}
+.noSongImage {
+    flex:1 1 auto;
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    color:white;
+}
+.joinImage {
+    height: 325px;
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:white;
+}
+.flex-button {
+    flex: 1 1 auto;
+    margin:20px;
+}
+@media (max-width: 500px) {
+    .flex-row-top {
+   display: flex; 
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+.flex-button {
+    margin-top: -70%;
+    flex: 0 0 100%;
+}
+.flex-two {
+    margin-top: -110%;
+}
+    .bodyFont {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 7px;
+}
+.bodyFont-bold {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 7px;
+}
+.rowFont {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.rowFont-bold {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.requestFont {
+   display: none 
+}
+
+.bodyFontNoPad {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 7px;
+}
+.fontRegular {
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    color:#676769;
+    font-size: 15px
+}
+.startSpinning {
+    height: 50%;
+        padding-top:0px
+    }
+    .bgimg {
+        background-image: url('../Assets/dj.jpg');
+        width: 100%;
+        height:600px;
+        background-size: cover;
+        background-position: center left;
+        z-index: 9;
+    }
+    .content {
+        z-index: 10;
+        width: 100%;
+        height:600px;
+        background-color: rgba(246,246,246,0.4);
+    }
+    .innerContent {
+    max-width: 900px;
+        padding-bottom: 20px;
+        border-radius: 25px;
+        display: inline-block;
+        margin-top: 8vh;
+        background-color: #FFFFFF;
+        min-height: 300px;
+        width: 95%;
+    }
+    .buttonOne {
+        float: none;
+    }
+    .buttonTwo {
+        float: none
+    }
+    .noSongImage {
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    color:white;
+}
+    .solidOne {
+        font-family: 'flexo-bold', Fallback, sans-serif; 
+        text-align: center;
+        align-content: center;
+        font-size: 30px;
+        color:white;
+    }
+    .solidTwo {
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    color:white;
+}
+    .joinImage {
+    height: 325px;
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:white;
+    }
+    .bottom {
+        overflow: hidden;
+        align-content: center;
+        text-align: center;
+        background-color: #E1E6FB;
+        width: 100%
+    }
+}
+@media (max-width: 800px) and (min-width: 500px;) {
+    .bodyFont {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.bodyFont-bold {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.rowFont {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.rowFont-bold {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    color:#ABAAAB;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.requestFont {
+   display: none 
+}
+.bodyFontNoPad {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 15px;
+}
+    .innerContent {
+    max-width: 900px;
+        padding-bottom: 20px;
+        border-radius: 25px;
+        display: inline-block;
+        margin-top: 8vh;
+        background-color: #FFFFFF;
+        min-height: 300px;
+        width: 95%;
+    }
+    .buttonOne {
+        float: none;
+    }
+    .buttonTwo {
+        float: none
+    }
+    .solidOne {
+        font-family: 'flexo-bold', Fallback, sans-serif; 
+        margin-top:75px;
+        text-align: center;
+        align-content: center;
+        font-size: 40px;
+        color:white;
+    }
+
+.noSongImage {
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    color:white;
+}
+    .joinImage {
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    justify-content: center;
+    height: 325px;
+    align-items: center;
+    font-size: 40px;
+    color:white;
+    }
+    .bottom {
+        overflow: hidden;
+        align-content: center;
+        text-align: center;
+        background-color: #E1E6FB;
+        width: 100%
+    }
+}
+.circleBase {
+    border-radius: 50%;
+}
+.infoLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 2px;
+    margin-top: 0px;
+}
+.type1 {
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    display: inline-block;
+    background: #C86DD7;
+}
+
+.inner-content {
+    z-index: 10;
+    width: 100%;
+}
+.bodyFont {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.bodyFont-bold {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.requestFont {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bodyFontNoPad {
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    color:#ABAAAB;
+    font-size: 15px;
+}
+.infoDetailTitle {
+    margin-top: 10px;
+}
+
+.lt {
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    font-size: 15px;
+}
+.solidTwo {
+    font-family: 'flexo-light', Fallback, sans-serif; 
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    color:white;
+}
+
+.fontRegular {
+    font-family: 'flexo-bold', Fallback, sans-serif; 
+    color:#676769;
+    font-size: 30px
+}
+.frontSize {
+    font-size: 15px;
+}

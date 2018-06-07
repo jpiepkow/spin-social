@@ -1,0 +1,6 @@
+{
+	"default": {
+		"clientUrlBase":"http://spin.social",
+		"serverUrlBase":"http://api.spin.social"
+	}
+}

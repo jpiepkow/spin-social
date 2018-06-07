@@ -1,0 +1,22 @@
+.share-flex {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex: 1 1 auto;
+}
+.textFlex {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    width: 80%;
+    margin:25px auto 0px;
+}
+.play-flex {
+	width: 80%;
+	margin:auto;
+	display: flex;
+	justify-content: flex-start;
+}
+.play-button {
+	flex: 1 1 95%;
+}

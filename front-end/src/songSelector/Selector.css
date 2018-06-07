@@ -1,0 +1,76 @@
+.selectContainer {
+	width: 500px;
+	display:flex;
+}
+
+.img-circle {
+        border-radius: 50%;
+        height:40px;
+        width: 40px;
+    }
+@media (max-width: 500px) {
+	.selectContainer {
+	width: 300px
+}
+.img-circle {
+        border-radius: 50%;
+        height:30px;
+        width: 30px;
+    }
+
+}
+
+@media (max-width: 800px) and (min-width: 400px) {
+		.selectContainer {
+	width: 350px
+}
+.img-circle {
+        border-radius: 50%;
+        height:30px;
+        width: 30px;
+    }
+}
+
+.icon {
+	margin-right: 5px;
+	color: white;
+}
+       .blackText {
+   	color: black;
+   }
+.songInput {
+	padding-left: 20px;
+	height:40px;
+	flex:5 5 auto; 
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px 0px 0px 50px;
+border-color: #6D15E6;
+border-width: 1px;
+ background: none;
+ box-shadow:none;
+ border-style: solid;
+}
+.flexable {
+	flex:1 1 auto;	
+}
+.sub {
+	width: 50px;
+}
+.songSubmit {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	background: #6D15E6;
+	height:40px;
+	width:100%;
+	-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 0px 50px 50px 0px;
+border: 1;
+border-color: #6D15E6;
+ box-shadow:none;
+ border-style: solid;
+}

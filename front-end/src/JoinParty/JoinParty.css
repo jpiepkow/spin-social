@@ -1,0 +1,38 @@
+.join-flex-row {
+	display: flex;
+	justify-content: flex-start;
+}
+.text-flex-join {
+	margin-left: auto;
+}
+.song-r {
+	width:'80%';
+	display: flex;
+	justify-content: flex-start;
+	margin: auto;
+	align-items: flex-end;
+	padding: 0px;
+}
+.song-row-flex {
+	display: flex;
+	width: 80%;
+	margin: 0px auto 0px;
+	justify-content: space-around;
+	align-items: center;
+}
+.flexImg {
+	flex: 1 1 10%;
+}
+.flexText {
+	flex: 1 1 80%;
+	margin-top: 20px;
+	display: flex;
+	display: inline-block;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+    
+.flexAdd {
+	flex: 1 1 10%;
+}

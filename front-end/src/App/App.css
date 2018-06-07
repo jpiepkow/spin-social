@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+.App-intro {
+  font-size: large;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+	min-height: 100vh;
+  width: 100%;
+}
+.headerSize {
+  height:75px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+.b-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer {
+  height:75px;
+}
+.mainContent {
+  flex: 1 1 auto;  
+  background-color: #E1E6FB;
+}
+@font-face {
+  font-family: 'flexo-blackit';
+  src: url('../fonts/Flexo/Flexo-BlackIt.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'flexo-bold';
+  src: url('../fonts/Flexo/Flexo-Bold.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'flexo-boldlt';
+  src: url('../fonts/Flexo/Flexo-BoldIt.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'flexo-it';
+  src: url('../fonts/Flexo/Flexo-It.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'flexo-light';
+  src: url('../fonts/Flexo/Flexo-Light.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'flexo-regular';
+  src: url('../fonts/Flexo/Flexo-Regular.otf'); /* IE9 Compat Modes */
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

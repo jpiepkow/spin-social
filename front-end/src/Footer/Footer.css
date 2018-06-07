@@ -1,0 +1,73 @@
+.footRow {
+	width: 100%;
+	display: inline-block;
+}
+.circleBase {
+    border-radius: 50%;
+}
+.socialLogo {
+    height: 40px;
+}
+.type2 {
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+    display: inline-block;
+    background: #838196;
+}
+
+.social-flex {
+    flex:1 1 auto;
+    height: 40px;
+}
+.flex-row {
+    display:flex;
+    height: 100%;
+    width: 200px;
+    margin:auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 500px) { 
+    .socialLogo {
+    height: 30px;
+}
+.social-flex {
+    flex:1 1 auto;
+    height: 30px;
+}
+.type2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    display: inline-block;
+    background: #838196;
+}
+.flex-row {
+    display:flex;
+    height: 100%;
+    width: 40%;
+    margin:auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+.footerLogo {
+    padding: 2px;
+    margin-top: 10px;
+}
+.App-footer {
+    height:100%;
+  text-align: center; 
+  color: white;
+  background-color: #2E2E2E
+}
+.innerFooterContainer {
+    width:100%;
+}
+

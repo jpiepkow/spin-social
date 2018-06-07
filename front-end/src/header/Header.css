@@ -1,0 +1,92 @@
+.App {
+  color: white;
+  text-align: center;
+}
+.App-header {
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #3023AE; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #3023AE , #C76DD7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #3023AE, #C76DD7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #3023AE, #C76DD7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #3023AE , #C76DD7); /* Standard syntax */
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.beta {
+  color:'white';
+  display: inline-block;
+}
+
+@media (max-width: 360px) { 
+  .beta {
+  color:'white';
+  display: none;
+}
+
+}
+
+.cursor {
+  cursor: pointer;
+}
+.fa-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.user-image {
+      height:50px;
+        border-radius: 50%;
+    }
+.logo {
+  height: 60px;
+}
+.logo-in-content {
+  height: 70px;
+}
+.noMarg {
+  margin-bottom:0px;
+}
+.flex-row-header {
+  height: inherit;
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-flex-left {
+  flex:1 1 auto;
+}
+.user-image-flex {
+  height:100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex:4 4 50%;
+}
+.user-name-flex {
+  display: flex;
+  justify-content: flex-end;
+  flex:1 1 auto;
+}
+.row {
+  color: white;
+  padding: 10px;
+}
+.Header-title {
+  padding: 2px;
+}
+.App-right {
+  height: inherit;
+  flex:1 1 auto;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

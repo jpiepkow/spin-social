@@ -1,0 +1,6 @@
+{
+	"default": {
+		"clientUrlBase":"http://localhost:3000",
+		"serverUrlBase":"http://localhost:8000"
+	}
+}

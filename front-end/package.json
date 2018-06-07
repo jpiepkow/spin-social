@@ -1,0 +1,41 @@
+{
+  "name": "Spin",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "express": "^4.14.0",
+    "firebase": "^3.6.6",
+    "jquery": "^3.1.1",
+    "mobx": "^2.6.0",
+    "mobx-react": "^3.5.8",
+    "mobx-react-devtools": "^4.2.9",
+    "morgan": "^1.7.0",
+    "react": "^15.3.2",
+    "react-copy-to-clipboard": "^5.0.0",
+    "react-dom": "^15.3.2",
+    "react-flip-move": "^2.7.4",
+    "react-fontawesome": "^1.4.0",
+    "react-ga": "^2.2.0",
+    "react-modal-dialog": "^4.0.4",
+    "react-notify-toast-fix": "^0.2.0",
+    "react-progress": "0.0.12",
+    "react-router": "^3.0.2",
+    "react-share": "^1.11.1",
+    "react-string-replace": "^0.4.0",
+    "react-stripe-checkout": "^2.2.5",
+    "react.timer": "^2.1.0",
+    "reactfire": "^1.0.0",
+    "uuid": "^3.0.1",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
